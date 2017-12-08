@@ -4,6 +4,14 @@ body {
     color: #777;
 }
 
+.title {
+    background-color: #37474F;
+    padding: 14px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
 h3 {
     font-size: 20px;
     margin-bottom: 30px;
