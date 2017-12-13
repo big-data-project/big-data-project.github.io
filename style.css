@@ -4,6 +4,10 @@ body {
     color: #777;
 }
 
+img {
+    width: 100%;
+}
+
 .title {
     background-color: #37474F;
     padding: 14px;
@@ -19,6 +23,11 @@ h3 {
 
 h4 {
     font-size: 16px;
+    font-style: oblique;
+}
+
+h5 {
+    font-size: 15px;
     font-style: oblique;
 }
 
@@ -53,7 +62,7 @@ h4 {
 .coloured {
     background-color: #E0E0E0;
     color: #777;
-    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);*/
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
 }
 
 .navbar-perso > div {
@@ -82,7 +91,7 @@ h4 {
 }
 
 .img-1 {
-    background-image: url(assets/big-data-background-min.jpg);
+    background-image: url(assets/big-data-background.png);
     min-height: 100%;
 }
 
