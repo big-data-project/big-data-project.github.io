@@ -1,9 +1,13 @@
 $(document).ready(_ => {
+    if ($(window).scrollTop() != 0) {
+        $('.navbar-perso').css('visibility', 'visible');
+    }
+
     $(document).scroll(_ => {
         if ($(window).scrollTop() >= 1) {
-            $('.navbar-perso').addClass('coloured');
+            $('.navbar-perso').css('visibility', 'visible');
         } else {
-            $('.navbar-perso').removeClass('coloured');
+            $('.navbar-perso').css('visibility', 'hidden');
         }
     })
 

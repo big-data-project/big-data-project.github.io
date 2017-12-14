@@ -48,6 +48,7 @@ h5 {
 }
 
 .navbar-perso {
+    visibility: hidden;
     position: fixed;
     z-index: 9000;
     top: 0;
@@ -98,7 +99,8 @@ h5 {
 .img-2,
 .img-3,
 .img-4,
-.img-5 {
+.img-5,
+.img-6 {
     min-height: 400px;
 }
 
@@ -116,4 +118,8 @@ h5 {
 
 .img-5 {
     background-image: url(assets/big-data-background-5-min.jpg);
+}
+
+.img-6 {
+    background-image: url(assets/big-data-background-6-min.jpg);
 }
