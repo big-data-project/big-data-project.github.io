@@ -101,7 +101,8 @@ h5 {
 .img-3,
 .img-4,
 .img-5,
-.img-6 {
+.img-6,
+.img-7 {
     min-height: 400px;
 }
 
@@ -123,4 +124,8 @@ h5 {
 
 .img-6 {
     background-image: url(assets/big-data-background-6-min.jpg);
+}
+
+.img-7 {
+    background-image: url(assets/big-data-background-7-min.jpg);
 }
